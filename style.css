@@ -35,19 +35,47 @@ nav{
     display: flex;
     border-bottom: 3px solid  rgb(28, 98, 74) ;
     scroll-behavior: smooth;
+    overflow-x: auto; /* Permette lo scorrimento orizzontale */
+    white-space: nowrap; /* Impedisce il wrapping degli elementi */
+}
+
+.nav ul {
+    display: flex; /* Disposizione in linea degli elementi */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block; /* Mantiene gli elementi in linea */
+}
+
+.nav a {
+    display: block;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #575757;
 }
 
 .logo{
-    height: 100%;
-    width: 70px;
+    border-radius: 44px;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+
 
 }
 .navlink{
     list-style: none;
     width: 1000px;
+    min-width: 700px;
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -157,7 +185,7 @@ h6{
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,6 +251,8 @@ h6{
 .contatti1{
     background-color: none;
     max-width: 400px;
+    margin-left: 20px;
+    margin-right: 20x;
 }
 
 .FAQ{
@@ -257,3 +287,31 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    header, main, footer {
+        margin: 0;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .navlink {
+        font-size: 1em;
+    }
+
+    .testocitazione {
+        font-size: 1.5em;
+    }
+
+    .titoloservizi {
+        font-size: 1.8em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+}
+
