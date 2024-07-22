@@ -66,17 +66,25 @@ nav{
     height: 40px;
     width: 40px;
     margin: 10px;
-
-
 }
+
+.logogoogle{
+    border-radius: 44px;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+
 .navlink{
     list-style: none;
     width: 1000px;
     min-width: 700px;
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-right: 20px;
 }
 
 h1{
@@ -129,7 +137,10 @@ h6{
     background-color: mediumaquamarine;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(28, 98, 74);
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 12px;
+    margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
 }
@@ -168,24 +179,24 @@ h6{
 
 .headerhome{
     min-height: 100vh;
-    background: url(media/background2.jpg);
+    background: url(media/background2-2.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     flex-direction: column;
 }
 
 .headerservizi{
     min-height: 35vh;
-    background: url(media/background.jpg);
+    background: url(media/background2-2.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,8 +214,10 @@ h6{
 .CVphoto{
     height: 300px;
     width: 300px;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin: 30px;
+    border: 10px solid  whitesmoke ;
+    border-radius: 12px;
+
 }
 
 
@@ -214,6 +227,9 @@ h6{
     display: flex;
     justify-content: left;
     align-items: center;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .linksocial{
@@ -236,7 +252,7 @@ h6{
 
 .contatti{
     min-height: 85vh;
-    background: url(media/background.jpg);
+    background: url(media/background1-3.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -271,6 +287,11 @@ h6{
     box-sizing: border-box;
 }
 
+.imgservizi{
+    width: 320px;
+    height: 240px;
+}
+
 @media (max-width: 800px) {
     .FAQ1 {
         flex: 1 1 100%; /* Una colonna quando la larghezza è inferiore a 800px */
@@ -295,7 +316,7 @@ footer{
     }
 
     header h1 {
-        font-size: 1.8em;
+        font-size: 1.9em;
     }
 
     .navlink {
