@@ -68,14 +68,6 @@ nav{
     margin: 10px;
 }
 
-.logogoogle{
-    border-radius: 44px;
-    height: 35px;
-    width: 35px;
-    margin: 10px;
-}
-
-
 .navlink{
     list-style: none;
     width: 1000px;
@@ -116,8 +108,9 @@ h3{
 }
 
 .oldh5{
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 15px;
+    margin-right: 15px;
 }
 
 h6{
@@ -180,7 +173,7 @@ h6{
 
 .headerhome{
     min-height: 90vh;
-    background: url(media/background2-2.png);
+    background: url(media/background2phone.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -195,7 +188,7 @@ h6{
 
 .headerservizi{
     min-height: 35vh;
-    background: url(media/background2-2.png);
+    background: url(media/background2phone.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -239,6 +232,7 @@ h6{
     height: 35px;
     width: 35px;
     margin: 10px;
+    border-radius: 3px;
 }
 
 .articles{
@@ -255,7 +249,7 @@ h6{
 
 .contatti{
     min-height: 85vh;
-    background: url(media/background1-3.png);
+    background: url(media/background1phone.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
